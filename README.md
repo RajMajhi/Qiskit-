@@ -6,7 +6,7 @@ Qiskit is an open-source quantum computing framework that allows you to create, 
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### 1️⃣ Install Python (3.8+)
 
@@ -52,7 +52,7 @@ python -c "import qiskit; print(qiskit.__version__)"
 
 ---
 
-## 📓 Using Qiskit with Jupyter Notebook
+##  Using Qiskit with Jupyter Notebook
 
 Install Jupyter:
 
@@ -70,7 +70,7 @@ Create a new Python notebook and begin coding.
 
 ---
 
-## 🚀 Basic Example: Bell State Circuit
+##  Basic Example: Bell State Circuit
 
 ```python
 from qiskit import QuantumCircuit
@@ -106,7 +106,7 @@ Expected Output (approximate):
 
 ---
 
-## 🧠 Basic Concepts
+##  Basic Concepts
 
 ### Qubit
 A quantum bit that can exist in superposition.
@@ -131,7 +131,7 @@ qc.ry(1.57, 0)
 
 ---
 
-## 📊 Visualizing Circuits
+##  Visualizing Circuits
 
 ```python
 qc.draw('mpl')
@@ -145,7 +145,7 @@ pip install matplotlib
 
 ---
 
-## 🔬 Statevector Simulation
+##  Statevector Simulation
 
 ```python
 from qiskit.quantum_info import Statevector
@@ -156,7 +156,7 @@ print(state)
 
 ---
 
-## 🔗 Running on Real Hardware
+##  Running on Real Hardware
 
 Install IBM Runtime:
 
@@ -167,6 +167,7 @@ pip install qiskit-ibm-runtime
 Authenticate and run jobs using IBM Quantum services.
 
 ---
+@RajMajhi
 
 ## 📚 Resources
 
